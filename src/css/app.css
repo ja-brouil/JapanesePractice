@@ -1,0 +1,148 @@
+.App {
+    /* Text */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    line-height: 1.5em;
+    text-align: center;
+    color: black;
+
+    /* Background */
+    background-color:transparent;
+
+    /* OverFlow */
+    overflow: hidden;
+}
+
+.underlineMe {
+    /* Text */
+    text-decoration: underline;
+}
+
+.allQuizArea, .answeringSection, .resultSection, .currentHiragana, .title {
+    /* Size */
+    height: fit-content;
+    max-width: fit-content;
+
+    /* Padding & Margin*/
+    padding: 10px;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+
+    /* Background color for div boxes */
+    background-color: transparent;
+}
+
+.answeringSection, .resultSection, .currentHiragana, .title {
+    /* Border */
+    border-width: thick;
+    border-style: solid;
+
+    /* Background color */
+    background-color: rgb(255, 255, 204);
+}
+
+.titleOfHiragana, answerAreaOfHiragana{
+    padding: 15px;
+}
+
+input {
+    /* Text */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+
+    /* Box */
+    background-color: white;
+    border-width: medium;
+    border-style: solid;
+    outline: none;
+    box-shadow: none;
+    min-height: 30px;
+    font-size: 22px;
+}
+
+/* Auto hide placer holder text */
+input:focus::-webkit-input-placeholder, input:hover::-webkit-input-placeholder {
+    opacity: 0;
+}
+
+/* Background stuff */
+img.bg{
+    /* Fill background */
+    min-height: 100%;
+    min-width: 1024px;
+
+    /* Proportional scaling */
+    width: 100%;
+    height: auto;
+
+    /* Set Up positioning */
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+
+    /* Background color */
+    background-color: lightgoldenrodyellow;
+
+    /* transition */
+    animation: fadein 2s 1, fadeout 2s 18s;
+    animation-fill-mode: forwards;
+}
+
+img.bg2{
+    /* Fill background */
+    min-height: 100%;
+    min-width: 1024px;
+
+    /* Proportional scaling */
+    width: 100%;
+    height: auto;
+
+    /* Set Up positioning */
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+
+    /* transition */
+    animation: fadein2 2s 1, fadeout2 2s 18s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fadein {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes fadeout {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+@keyframes fadein2 {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes fadeout2 {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}

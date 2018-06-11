@@ -9,3 +9,6 @@ Practice your Hiragana and Katakana
   - Add options for which characters you wish to see
   - Add katakana
   - Options to mix both hiragana and katakana
+
+Live Site:
+https://ja-brouil.github.io/JapanesePractice/

@@ -166,3 +166,40 @@ input:focus::-webkit-input-placeholder, input:hover::-webkit-input-placeholder {
         opacity: 0;
     }
 }
+
+/* Arrows */
+.previousArrow, .nextArrow {
+    height: 40px;
+    width: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background:  rgb(255, 255, 204);
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.nextArrow {
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    z-index: 999;
+    color: #fff;
+}
+
+img.nextArrowImg:hover {
+    transform: translate(1.5px, 0);
+}
+
+img.previousArrowImg:hover{
+    transform: translate(-1.5px, 0)
+}
+
+.previousArrow {
+    position: absolute;
+    top: 50%;
+    left: 25px;
+    z-index: 999;
+    color: #fff;
+}
+  

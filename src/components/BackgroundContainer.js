@@ -9,7 +9,8 @@ class BackgroundContainer extends Component {
 
         // Max number is 5
         this.state = {
-            slideNumber : 0
+            previousSlideNumber: 0,
+            slideNumber : 0,
         }
     }
 
@@ -17,41 +18,37 @@ class BackgroundContainer extends Component {
     nextImage = () => {
         if (this.state.slideNumber + 1 > 5) {
             this.setState({
-                slideNumber: 0
+                slideNumber: 0,
             });
         } else {
             this.setState({
-                slideNumber: this.state.slideNumber + 1
+                slideNumber: this.state.slideNumber + 1,
             });
         }
-
-        console.log(this.state.slideNumber);
-    }
+}
 
     // Delegate function for previous image
     previousImage = () => {
         if (this.state.slideNumber - 1 < 0){
             this.setState({
-                slideNumber: 5
+                slideNumber: 5,
             });
         } else {
             this.setState({
-                slideNumber: this.state.slideNumber - 1
+                slideNumber: this.state.slideNumber - 1,
             });
         }
-        console.log(this.state.slideNumber);
     }
     
     render () {
         return (
              <div className="slider">
                 {/* Slides */}
-                <BackgroundImage slideNumber={this.state.slideNumber} />
+                <BackgroundImage slideNumber={this.state.slideNumber} previousSlideNumber={this.state.previousSlideNumber} />
 
                 {/*Arrows and Dots */}
                 <RightArrow nextImage={this.nextImage} />
                 <LeftArrow previousImage={this.previousImage} />
-
             </div>
         );
     }

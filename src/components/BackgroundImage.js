@@ -14,27 +14,30 @@ class BackgroundImage extends Component {
         this.imageArray = [image1, image2, image3, image4, image5, image6];
         
         this.state = {
+            previousImageNumber: this.props.previousSlideNumber,
             currentImageNumber : this.props.slideNumber,
-            classname : "initialbg"
+            currentclassname : "initialbg",
+            previousclassname : "initialbg",
         }        
     }
 
     // Do not forget to set a check or this will loop forever
     componentDidUpdate(prevProps){
-        setTimeout(() => {
-            if (this.props.slideNumber !== prevProps.slideNumber) {
-                this.setState({
-                    currentImageNumber: this.props.slideNumber
-                });
-            }
-        }, 2000);
-       
+        // Fade first image
+        if (prevProps.slideNumber !== this.props.slideNumber){
+            this.setState({
+                previousImageNumber : this.props.previousSlideNumber,
+                currentImageNumber : this.props.slideNumber,
+            })
+        }
     }
 
     render() {
         return (
             <div className="backgroundImage">
-                <img className={this.state.classname} src={this.imageArray[this.state.currentImageNumber]} alt="backgroundImageContent"/>
+                <div>
+                    <img className={this.state.currentclassname} src={this.imageArray[this.state.currentImageNumber]} alt="backgroundImageContent"/>
+                </div>
             </div>
         );
     }

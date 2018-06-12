@@ -68,7 +68,7 @@ input:focus::-webkit-input-placeholder, input:hover::-webkit-input-placeholder {
 }
 
 /* Background stuff */
-img.bg{
+.fadeinbg{
     /* Fill background */
     min-height: 100%;
     min-width: 1024px;
@@ -87,11 +87,11 @@ img.bg{
     background-color: lightgoldenrodyellow;
 
     /* transition */
-    animation: fadein 2s 1, fadeout 2s 18s;
-    animation-fill-mode: forwards;
+    animation: fadein 2s 1;
+    animation-fill-mode: forwards; 
 }
 
-img.bg2{
+.fadeoutbg{
     /* Fill background */
     min-height: 100%;
     min-width: 1024px;
@@ -107,8 +107,28 @@ img.bg2{
     z-index: -1;
 
     /* transition */
-    animation: fadein2 2s 1, fadeout2 2s 18s;
+    animation: fadeout 2s 1;
     animation-fill-mode: forwards;
+}
+
+/* Initial State */
+.initialbg{
+    /* Fill background */
+    min-height: 100%;
+    min-width: 1024px;
+
+    /* Proportional scaling */
+    width: 100%;
+    height: auto;
+
+    /* Set Up positioning */
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+
+    /* Background color */
+    background-color: lightgoldenrodyellow;
 }
 
 @keyframes fadein {

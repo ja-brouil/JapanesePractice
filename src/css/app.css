@@ -68,7 +68,7 @@ input:focus::-webkit-input-placeholder, input:hover::-webkit-input-placeholder {
 }
 
 /* Background stuff */
-.fadeinbg{
+.fadeinbg {
     /* Fill background */
     min-height: 100%;
     min-width: 1024px;
@@ -87,11 +87,11 @@ input:focus::-webkit-input-placeholder, input:hover::-webkit-input-placeholder {
     background-color: lightgoldenrodyellow;
 
     /* transition */
-    animation: fadein 2s 1;
+    animation: fadein 1s linear 0ms normal forwards;
     animation-fill-mode: forwards; 
 }
 
-.fadeoutbg{
+.fadeoutbg {
     /* Fill background */
     min-height: 100%;
     min-width: 1024px;
@@ -104,15 +104,50 @@ input:focus::-webkit-input-placeholder, input:hover::-webkit-input-placeholder {
     position: fixed;
     top: 0;
     left: 0;
-    z-index: -1;
+    z-index: -2;
 
     /* transition */
-    animation: fadeout 2s 1;
+    animation: fadeout 1s linear 0ms normal forwards;
+    animation-fill-mode: forwards;
+}
+
+.fadeinbg2 {
+    /* Fill background */
+    min-height: 100%;
+    min-width: 1024px;
+    /* Proportional scaling */
+    width: 100%;
+    height: auto;
+    /* Set Up positioning */
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    /* Background color */
+    background-color: lightgoldenrodyellow;
+    /* transition */
+    animation: fadein2 1s linear 0ms normal forwards;
+}
+
+.fadeoutbg2 {
+    /* Fill background */
+    min-height: 100%;
+    min-width: 1024px;
+    /* Proportional scaling */
+    width: 100%;
+    height: auto;
+    /* Set Up positioning */
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    /* transition */
+    animation: fadeout2 1s linear 0ms normal forwards;
     animation-fill-mode: forwards;
 }
 
 /* Initial State */
-.initialbg{
+.initialbg {
     /* Fill background */
     min-height: 100%;
     min-width: 1024px;
@@ -175,6 +210,9 @@ input:focus::-webkit-input-placeholder, input:hover::-webkit-input-placeholder {
     align-items: center;
     justify-content: center;
     background:  rgb(255, 255, 204);
+    border-color: black;
+    border-width: medium;
+    border-style: solid;
     border-radius: 50%;
     cursor: pointer;
 }
@@ -182,7 +220,7 @@ input:focus::-webkit-input-placeholder, input:hover::-webkit-input-placeholder {
 .nextArrow {
     position: absolute;
     top: 50%;
-    right: 20px;
+    right: 25px;
     z-index: 999;
     color: #fff;
 }
@@ -202,4 +240,32 @@ img.previousArrowImg:hover{
     z-index: 999;
     color: #fff;
 }
-  
+
+/* Circles */
+.allCircles {
+    background-color: transparent;
+    height: fit-content;
+    width: 100%;
+    bottom: 30px;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+
+.circleChange {
+    height: 15px;
+    width: 15px;
+    background : rgb(255, 255, 204);
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: auto;
+    margin-bottom: auto;
+    border-color: black;
+    border-width: 1.5px;
+    border-style: solid;
+    border-radius: 50%;
+    cursor: pointer;
+}  

@@ -2,6 +2,7 @@ import React, {Component} from 'react';
 import BackgroundImage from './BackgroundImage.js';
 import LeftArrow from './LeftArrow.js';
 import RightArrow from './RightArrow.js';
+import CircleButtons from './CircleButtons.js';
 
 class BackgroundContainer extends Component {
     constructor(props) {
@@ -39,6 +40,13 @@ class BackgroundContainer extends Component {
             });
         }
     }
+
+    // Delegate Function for circle buttons
+    setCircleImage = (circleNumber) => {
+        this.setState({
+            slideNumber : circleNumber,
+        });
+    }
     
     render () {
         return (
@@ -49,6 +57,7 @@ class BackgroundContainer extends Component {
                 {/*Arrows and Dots */}
                 <RightArrow nextImage={this.nextImage} />
                 <LeftArrow previousImage={this.previousImage} />
+                <CircleButtons setCircleImage={this.setCircleImage} />
             </div>
         );
     }

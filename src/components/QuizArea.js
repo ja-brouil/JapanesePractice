@@ -11,6 +11,7 @@ class QuizArea extends Component {
             currentHiraganaAnswer: this.props.CurrentHiragana.currentHiraganaAnswer,
             correctAnswerCount : 0,
             streakAnswerCount : 0,
+            // I'm aware that we should use enumerators for these instead of flags.
             lastRenderBool : false,
             incorrectAnswerRenderBool : false,
             inputValue : ''
@@ -61,8 +62,6 @@ class QuizArea extends Component {
             return(
                 <div>
                     <p>Incorrect! Try again!</p>
-                    <p>Iie, sai shikō shite kudasai!</p>
-                    <p>再試行してください</p>
                 </div>
             );
         }

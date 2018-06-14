@@ -88,7 +88,8 @@ input:focus::-webkit-input-placeholder, input:hover::-webkit-input-placeholder {
 
     /* transition */
     animation: fadein 1s linear 0ms normal forwards;
-    animation-fill-mode: forwards; 
+    -moz-animation: fadein 1s linear 0ms normal forwards;
+    -webkit-animation: fadein 1s linear 0ms normal forwards;
 }
 
 .fadeoutbg {
@@ -108,7 +109,8 @@ input:focus::-webkit-input-placeholder, input:hover::-webkit-input-placeholder {
 
     /* transition */
     animation: fadeout 1s linear 0ms normal forwards;
-    animation-fill-mode: forwards;
+    -moz-animation: fadeout 1s linear 0ms normal forwards;
+    -webkit-animation: fadeout 1s linear 0ms normal forwards;
 }
 
 .fadeinbg2 {
@@ -127,6 +129,8 @@ input:focus::-webkit-input-placeholder, input:hover::-webkit-input-placeholder {
     background-color: lightgoldenrodyellow;
     /* transition */
     animation: fadein2 1s linear 0ms normal forwards;
+    -moz-animation: fadein2 1s linear 0ms normal forwards;
+    -webkit-animation: fadein2 1s linear 0ms normal forwards;
 }
 
 .fadeoutbg2 {
@@ -143,7 +147,8 @@ input:focus::-webkit-input-placeholder, input:hover::-webkit-input-placeholder {
     z-index: -1;
     /* transition */
     animation: fadeout2 1s linear 0ms normal forwards;
-    animation-fill-mode: forwards;
+    -moz-animation: fadeout2 1s linear 0ms normal forwards;
+    -webkit-animation: fadeout2 1s linear 0ms normal forwards;
 }
 
 /* Initial State */

@@ -9,7 +9,8 @@ class Hiragana extends Component {
         this.hiraganaList = ["a", "chi", "e", "i", "ka", "ke", "ki", 
         "ko", "ku", "o", "sa", "se", "shi", "so", 
         "su", "ta", "te", "to", "tsu", "u", "na", "ni","nu", "ne", "no", "ha" ,"hi", "fu", "he", "ho",
-        "ma", "mi","mu","me", "mo", "ya","yu","yo", "ra","ri", "re", "ro", "ru", "wa", "wi", "we", "wo", "n"];
+        "ma", "mi","mu","me", "mo", "ya","yu","yo", "ra","ri", "re", "ro", "ru", "wa", "wo", "n", "ga", "gi", "gu" ,"ge", "go",
+        "za", "ji", "zu" ,"ze", "zo"];
 
         const randomInt = Math.floor(Math.random() * this.hiraganaList.length);
         this.state = {

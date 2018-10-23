@@ -1,21 +1,24 @@
 import React, { Component } from 'react';
 import QuizArea from './QuizArea';
+import hiraganaList from '../system/kanalist.json';
 
 class Hiragana extends Component {
     constructor(props) {
         super(props);
 
-        // Hiragana
-        this.hiraganaList = ["a", "chi", "e", "i", "ka", "ke", "ki", 
-        "ko", "ku", "o", "sa", "se", "shi", "so", 
-        "su", "ta", "te", "to", "tsu", "u", "na", "ni","nu", "ne", "no", "ha" ,"hi", "fu", "he", "ho",
-        "ma", "mi","mu","me", "mo", "ya","yu","yo", "ra","ri", "re", "ro", "ru", "wa", "wo", "n", "ga", "gi", "gu" ,"ge", "go",
-        "za", "ji", "zu" ,"ze", "zo"];
+        // Array for All Kanas
+        this.allKana = [];
 
-        const randomInt = Math.floor(Math.random() * this.hiraganaList.length);
+        // Initiate the Array
+        Object.keys(hiraganaList).forEach((object) => {
+            this.allKana.push(hiraganaList[object]);
+        });
+        const randomInt = Math.floor(Math.random() * this.allKana.length);
+
+        // Set State
         this.state = {
-            currentHiraganaPath : require('../images/hiragana/' + this.hiraganaList[randomInt] + '.png'),
-            currentHiraganaAnswer : this.hiraganaList[randomInt],
+            currentHiraganaPath: require('../images/hiragana/' + this.allKana[randomInt].fileLocation + '.png'),
+            currentHiraganaAnswer : this.allKana[randomInt].answer
         };
 
         // Binds
@@ -28,12 +31,18 @@ class Hiragana extends Component {
 
     // Set New Hiragana
     setNewHiragana = () => {
-        const randomInt = Math.floor(Math.random() * this.hiraganaList.length);
-        this.setState({
-                currentHiraganaPath : require('../images/hiragana/' + this.hiraganaList[randomInt] + '.png'),
-                currentHiraganaAnswer : this.hiraganaList[randomInt]
-            }
-        );
+       const randomInt = Math.floor(Math.random() * this.allKana.length);
+
+       if (!this.allKana[randomInt].enabled){
+           this.setNewHiragana();
+           return;
+       }
+
+       // Set State
+       this.setState({
+            currentHiraganaPath: require('../images/hiragana/' + this.allKana[randomInt].fileLocation + '.png'),
+            currentHiraganaAnswer: this.allKana[randomInt].answer
+       });
     }
 
     // Render out DOM

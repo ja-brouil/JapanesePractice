@@ -1,5 +1,4 @@
 import Hiragana from '../components/Hiragana.js';
-import Katakana from '../components/Katakana.js';
 import React, {Component} from 'react';
 
 class KanaContainer extends Component {
@@ -7,21 +6,14 @@ class KanaContainer extends Component {
         super(props);
         
         this.state = {
-            renderKatakana: true,
-            renderHiragana: false
+            renderHiragana: true
         };
     }
     
     render(){
-        if (this.state.renderHiragana){
-            return (
-                <Hiragana />
-            );
-        } else {
-            return (
-                <Katakana />
-            );
-        }
+        return (
+               <Hiragana />
+        );
     }
 }
 

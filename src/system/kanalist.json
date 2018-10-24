@@ -1,307 +1,337 @@
 {
     "hiraganaA": {
-        "fileLocation": "a",
+        "fileLocation": "hiragana/a",
         "answer": "a",
         "enabled": true
     },
     "hiraganaChi": {
-        "fileLocation": "chi",
+        "fileLocation": "hiragana/chi",
         "answer": "chi",
         "enabled": true
     },
     "hiraganaE": {
-        "fileLocation": "e",
+        "fileLocation": "hiragana/e",
         "answer": "e",
         "enabled": true
     },
     "hiraganaI": {
-        "fileLocation": "i",
+        "fileLocation": "hiragana/i",
         "answer": "i",
         "enabled": true
     },
     "hiraganaKa": {
-        "fileLocation": "ka",
+        "fileLocation": "hiragana/ka",
         "answer": "ka",
         "enabled": true
     },
     "hiraganaKe": {
-        "fileLocation": "ke",
+        "fileLocation": "hiragana/ke",
         "answer": "ke",
         "enabled": true
     },
     "hiraganaKi": {
-        "fileLocation": "ki",
+        "fileLocation": "hiragana/ki",
         "answer": "ki",
         "enabled": true
     },
     "hiraganaKo": {
-        "fileLocation": "ko",
+        "fileLocation": "hiragana/ko",
         "answer": "ko",
         "enabled": true
     },
     "hiraganaKu": {
-        "fileLocation": "ku",
+        "fileLocation": "hiragana/ku",
         "answer": "ku",
         "enabled": true
     },
     "hiraganaO": {
-        "fileLocation": "o",
+        "fileLocation": "hiragana/o",
         "answer": "o",
         "enabled": true
     },
     "hiraganaSa": {
-        "fileLocation": "sa",
+        "fileLocation": "hiragana/sa",
         "answer": "sa",
         "enabled": true
     },
     "hiraganaSe": {
-        "fileLocation": "se",
+        "fileLocation": "hiragana/se",
         "answer": "se",
         "enabled": true
     },
     "hiraganaShi": {
-        "fileLocation": "shi",
+        "fileLocation": "hiragana/shi",
         "answer": "shi",
         "enabled": true
     },
     "hiraganaSo": {
-        "fileLocation": "so",
+        "fileLocation": "hiragana/so",
         "answer": "so",
         "enabled": true
     },
     "hiraganaSu": {
-        "fileLocation": "su",
+        "fileLocation": "hiragana/su",
         "answer": "su",
         "enabled": true
     },
     "hiraganaTa": {
-        "fileLocation": "ta",
+        "fileLocation": "hiragana/ta",
         "answer": "ta",
         "enabled": true
     },
     "hiraganaTe": {
-        "fileLocation": "te",
+        "fileLocation": "hiragana/te",
         "answer": "te",
         "enabled": true
     },
     "hiraganaTo": {
-        "fileLocation": "to",
+        "fileLocation": "hiragana/to",
         "answer": "to",
         "enabled": true
     },
     "hiraganaTsu": {
-        "fileLocation": "tsu",
+        "fileLocation": "hiragana/tsu",
         "answer": "tsu",
         "enabled": true
     },
     "hiraganaU": {
-        "fileLocation": "u",
+        "fileLocation": "hiragana/u",
         "answer": "u",
         "enabled": true
     },
     "hiraganaNa": {
-        "fileLocation" : "na",
+        "fileLocation": "hiragana/na",
         "answer" : "na",
         "enabled" : true 
     },
     "hiraganaNi": {
-        "fileLocation" : "ni",
+        "fileLocation": "hiragana/ni",
         "answer" : "ni",
         "enabled" : true
     },
     "hiraganaNu": {
-        "fileLocation": "nu",
+        "fileLocation": "hiragana/nu",
         "answer": "nu",
         "enabled": true
     }, 
     "hiraganaNe": {
-        "fileLocation": "ne",
+        "fileLocation": "hiragana/ne",
         "answer": "ne",
         "enabled": true
     },
     "hiraganaNo": {
-        "fileLocation": "no",
+        "fileLocation": "hiragana/no",
         "answer": "no",
         "enabled": true
     },
     "hiraganaHa": {
-        "fileLocation": "ha",
+        "fileLocation": "hiragana/ha",
         "answer": "ha",
         "enabled": true
     },
     "hiraganaHi": {
-        "fileLocation": "hi",
+        "fileLocation": "hiragana/hi",
         "answer": "hi",
         "enabled": true
     },
     "hiraganaFu": {
-        "fileLocation": "fu",
+        "fileLocation": "hiragana/fu",
         "answer": "fu",
         "enabled": true
     },
     "hiraganaHo": {
-        "fileLocation": "ho",
+        "fileLocation": "hiragana/ho",
         "answer": "ho",
         "enabled": true
     },
     "hiraganaHe": {
-        "fileLocation": "he",
+        "fileLocation": "hiragana/he",
         "answer": "he",
         "enabled": true
     },
     "hiraganaMa": {
-        "fileLocation": "ma",
+        "fileLocation": "hiragana/ma",
         "answer": "ma",
         "enabled": true
     },
     "hiraganaMi": {
-        "fileLocation": "mi",
+        "fileLocation": "hiragana/mi",
         "answer": "mi",
         "enabled": true
     },
     "hiraganaMe": {
-        "fileLocation": "me",
+        "fileLocation": "hiragana/me",
         "answer": "me",
         "enabled": true
     },
     "hiraganaMo": {
-        "fileLocation": "mo",
+        "fileLocation": "hiragana/mo",
         "answer": "mo",
         "enabled": true
     },
     "hiraganaYa": {
-        "fileLocation": "ya",
+        "fileLocation": "hiragana/ya",
         "answer": "ya",
         "enabled": true
     },
     "hiraganaYu": {
-        "fileLocation": "yu",
+        "fileLocation": "hiragana/yu",
         "answer": "yu",
         "enabled": true
     },
     "hiraganaYo": {
-        "fileLocation": "yo",
+        "fileLocation": "hiragana/yo",
         "answer": "yo",
         "enabled": true
     },
     "hiraganaRa": {
-        "fileLocation": "ra",
+        "fileLocation": "hiragana/ra",
         "answer": "ra",
         "enabled": true
     },
     "hiraganaRi": {
-        "fileLocation": "ri",
+        "fileLocation": "hiragana/ri",
         "answer": "ri",
         "enabled": true
     },
     "hiraganaRe": {
-        "fileLocation": "re",
+        "fileLocation": "hiragana/re",
         "answer": "re",
         "enabled": true
     },
     "hiraganaRo": {
-        "fileLocation": "ro",
+        "fileLocation": "hiragana/ro",
         "answer": "ro",
         "enabled": true
     },
     "hiraganaRu": {
-        "fileLocation": "ru",
+        "fileLocation": "hiragana/ru",
         "answer": "ru",
         "enabled": true
     },
     "hiraganaWa": {
-        "fileLocation": "wa",
+        "fileLocation": "hiragana/wa",
         "answer": "wa",
         "enabled": true
     },
     "hiraganaWo": {
-        "fileLocation": "wo",
+        "fileLocation": "hiragana/wo",
         "answer": "wo",
         "enabled": true
     },
     "hiraganaN": {
-        "fileLocation": "n",
+        "fileLocation": "hiragana/n",
         "answer": "n",
         "enabled": true
     },
     "hiraganaGa": {
-        "fileLocation": "ga",
+        "fileLocation": "hiragana/ga",
         "answer": "ga",
         "enabled": true
     },
     "hiraganaGi": {
-        "fileLocation": "gi",
+        "fileLocation": "hiragana/gi",
         "answer": "gi",
         "enabled": true
     },
     "hiraganaGu": {
-        "fileLocation": "gu",
+        "fileLocation": "hiragana/gu",
         "answer": "gu",
         "enabled": true
     },
     "hiraganaGe": {
-        "fileLocation": "ge",
+        "fileLocation": "hiragana/ge",
         "answer": "ge",
         "enabled": true
     },
     "hiraganaGo": {
-        "fileLocation": "go",
+        "fileLocation": "hiragana/go",
         "answer": "go",
         "enabled": true
     },
     "hiraganaZa": {
-        "fileLocation": "za",
+        "fileLocation": "hiragana/za",
         "answer": "za",
         "enabled": true
     },
     "hiraganaJi": {
-        "fileLocation": "ji",
+        "fileLocation": "hiragana/ji",
         "answer": "ji",
         "enabled": true
     },
     "hiraganaZu": {
-        "fileLocation": "zu",
+        "fileLocation": "hiragana/zu",
         "answer": "zu",
         "enabled": true
     },
     "hiraganaZo": {
-        "fileLocation": "zo",
+        "fileLocation": "hiragana/zo",
         "answer": "zo",
         "enabled": true
     },
     "hiraganaJi2": {
-        "fileLocation": "ji2",
+        "fileLocation": "hiragana/ji2",
         "answer": "ji",
         "enabled": true
     },
     "hiraganaDa": {
-        "fileLocation" : "da",
+        "fileLocation": "hiragana/da",
         "answer" : "da",
         "enabled" : true
     },
     "hiraganaZu2" : {
-        "fileLocation" : "zu2",
+        "fileLocation": "hiragana/zu2",
         "answer" : "zu",
         "enabled" : true
     },
     "hiraganaDe" : {
-        "fileLocation" : "de",
+        "fileLocation": "hiragana/de",
         "answer" : "de",
         "enabled" : true
     },
     "hiraganaDo" : {
-        "fileLocation" : "do",
+        "fileLocation": "hiragana/do",
         "answer" : "do",
         "enabled" : true
     },
     "hiraganaBa" : {
-        "fileLocation" : "ba",
+        "fileLocation": "hiragana/ba",
         "answer" : "ba",
         "enabled" : true
     },
     "hiraganaBi" : {
-        "fileLocation" : "bi",
+        "fileLocation": "hiragana/bi",
         "answer" : "bi",
+        "enabled" : true
+    },
+    "hiraganaBu" : {
+        "fileLocation": "hiragana/bu",
+        "answer" : "bu",
+        "enabled" : true
+    },
+    "hiraganaBe" : {
+        "fileLocation": "hiragana/be",
+        "answer" : "be",
+        "enabled" : true
+    },
+    "hiraganaBo" : {
+        "fileLocation": "hiragana/bo",
+        "answer" : "be",
+        "enabled" : true
+    },
+    "hiraganaPa" : {
+        "fileLocation": "hiragana/pa",
+        "answer" : "pa",
+        "enabled" : true
+    },
+    "hiraganaPi" : {
+        "fileLocation": "hiragana/pi",
+        "answer" : "pi",
+        "enabled" : true
+    },
+    "hiraganaPu" : {
+        "fileLocation": "hiragana/pu",
+        "answer" : "pu",
         "enabled" : true
     }
 }

@@ -1,276 +1,586 @@
-.App {
-    /* Text */
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 20px;
-    line-height: 1.5em;
-    text-align: center;
-    color: black;
+/* Desktop */
+@media only screen and (min-width: 651px) {
+    .App {
+        /* Text */
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 20px;
+        line-height: 1.5em;
+        text-align: center;
+        color: black;
 
-    /* Background */
-    background-color:transparent;
+        /* Background */
+        background-color: transparent;
 
-    /* OverFlow */
-    overflow: hidden;
-}
+        /* OverFlow */
+        overflow: hidden;
+    }
 
-.underlineMe {
-    /* Text */
-    text-decoration: underline;
-}
+    .underlineMe {
+        /* Text */
+        text-decoration: underline;
+    }
 
-.allQuizArea, .answeringSection, .resultSection, .currentHiragana, .title {
-    /* Size */
-    height: fit-content;
-    max-width: fit-content;
+    .allQuizArea,
+    .answeringSection,
+    .resultSection,
+    .currentHiragana,
+    .title {
+        /* Size */
+        height: fit-content;
+        max-width: fit-content;
 
-    /* Padding & Margin*/
-    padding: 10px;
-    margin-top: 10px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 10px;
+        /* Padding & Margin*/
+        padding: 10px;
+        margin-top: 10px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 10px;
 
-    /* Background color for div boxes */
-    background-color: transparent;
-}
+        /* Background color for div boxes */
+        background-color: transparent;
+    }
 
-.answeringSection, .resultSection, .currentHiragana, .title {
-    /* Border */
-    border-width: thick;
-    border-style: solid;
+    .answeringSection,
+    .resultSection,
+    .currentHiragana,
+    .title {
+        /* Border */
+        border-width: thick;
+        border-style: solid;
 
-    /* Background color */
-    background-color: rgb(255, 255, 204);
-}
+        /* Background color */
+        background-color: rgb(255, 255, 204);
+    }
 
-.titleOfHiragana, answerAreaOfHiragana{
-    padding: 15px;
-}
+    .titleOfHiragana,
+    answerAreaOfHiragana {
+        padding: 15px;
+    }
 
-input {
-    /* Text */
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    text-align: center;
+    input {
+        /* Text */
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        text-align: center;
 
-    /* Box */
-    background-color: white;
-    border-width: medium;
-    border-style: solid;
-    outline: none;
-    box-shadow: none;
-    min-height: 30px;
-    font-size: 22px;
-}
+        /* Box */
+        background-color: white;
+        border-width: medium;
+        border-style: solid;
+        outline: none;
+        box-shadow: none;
+        min-height: 30px;
+        font-size: 22px;
+    }
 
-/* Auto hide placer holder text */
-input:focus::-webkit-input-placeholder, input:hover::-webkit-input-placeholder {
-    opacity: 0;
-}
-
-/* Background stuff */
-.fadeinbg {
-    /* Fill background */
-    min-height: 100%;
-    min-width: 1024px;
-
-    /* Proportional scaling */
-    width: 100%;
-    height: auto;
-
-    /* Set Up positioning */
-    position: fixed;
-    top: 0;
-    left: 0;
-    z-index: -1;
-
-    /* Background color */
-    background-color: lightgoldenrodyellow;
-
-    /* transition */
-    animation: fadein 1s linear 0ms normal forwards;
-    -moz-animation: fadein 1s linear 0ms normal forwards;
-    -webkit-animation: fadein 1s linear 0ms normal forwards;
-}
-
-.fadeoutbg {
-    /* Fill background */
-    min-height: 100%;
-    min-width: 1024px;
-
-    /* Proportional scaling */
-    width: 100%;
-    height: auto;
-
-    /* Set Up positioning */
-    position: fixed;
-    top: 0;
-    left: 0;
-    z-index: -2;
-
-    /* transition */
-    animation: fadeout 1s linear 0ms normal forwards;
-    -moz-animation: fadeout 1s linear 0ms normal forwards;
-    -webkit-animation: fadeout 1s linear 0ms normal forwards;
-}
-
-.fadeinbg2 {
-    /* Fill background */
-    min-height: 100%;
-    min-width: 1024px;
-    /* Proportional scaling */
-    width: 100%;
-    height: auto;
-    /* Set Up positioning */
-    position: fixed;
-    top: 0;
-    left: 0;
-    z-index: -1;
-    /* Background color */
-    background-color: lightgoldenrodyellow;
-    /* transition */
-    animation: fadein2 1s linear 0ms normal forwards;
-    -moz-animation: fadein2 1s linear 0ms normal forwards;
-    -webkit-animation: fadein2 1s linear 0ms normal forwards;
-}
-
-.fadeoutbg2 {
-    /* Fill background */
-    min-height: 100%;
-    min-width: 1024px;
-    /* Proportional scaling */
-    width: 100%;
-    height: auto;
-    /* Set Up positioning */
-    position: fixed;
-    top: 0;
-    left: 0;
-    z-index: -1;
-    /* transition */
-    animation: fadeout2 1s linear 0ms normal forwards;
-    -moz-animation: fadeout2 1s linear 0ms normal forwards;
-    -webkit-animation: fadeout2 1s linear 0ms normal forwards;
-}
-
-/* Initial State */
-.initialbg {
-    /* Fill background */
-    min-height: 100%;
-    min-width: 1024px;
-
-    /* Proportional scaling */
-    width: 100%;
-    height: auto;
-
-    /* Set Up positioning */
-    position: fixed;
-    top: 0;
-    left: 0;
-    z-index: -1;
-
-    /* Background color */
-    background-color: lightgoldenrodyellow;
-}
-
-@keyframes fadein {
-    0% {
+    /* Auto hide placer holder text */
+    input:focus::-webkit-input-placeholder,
+    input:hover::-webkit-input-placeholder {
         opacity: 0;
     }
-    100% {
-        opacity: 1;
+
+    /* Background stuff */
+    .fadeinbg {
+        /* Fill background */
+        min-height: 100%;
+        min-width: 1024px;
+
+        /* Proportional scaling */
+        width: 100%;
+        height: auto;
+
+        /* Set Up positioning */
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: -1;
+
+        /* Background color */
+        background-color: lightgoldenrodyellow;
+
+        /* transition */
+        animation: fadein 1s linear 0ms normal forwards;
+        -moz-animation: fadein 1s linear 0ms normal forwards;
+        -webkit-animation: fadein 1s linear 0ms normal forwards;
+    }
+
+    .fadeoutbg {
+        /* Fill background */
+        min-height: 100%;
+        min-width: 1024px;
+
+        /* Proportional scaling */
+        width: 100%;
+        height: auto;
+
+        /* Set Up positioning */
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: -2;
+
+        /* transition */
+        animation: fadeout 1s linear 0ms normal forwards;
+        -moz-animation: fadeout 1s linear 0ms normal forwards;
+        -webkit-animation: fadeout 1s linear 0ms normal forwards;
+    }
+
+    .fadeinbg2 {
+        /* Fill background */
+        min-height: 100%;
+        min-width: 1024px;
+        /* Proportional scaling */
+        width: 100%;
+        height: auto;
+        /* Set Up positioning */
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: -1;
+        /* Background color */
+        background-color: lightgoldenrodyellow;
+        /* transition */
+        animation: fadein2 1s linear 0ms normal forwards;
+        -moz-animation: fadein2 1s linear 0ms normal forwards;
+        -webkit-animation: fadein2 1s linear 0ms normal forwards;
+    }
+
+    .fadeoutbg2 {
+        /* Fill background */
+        min-height: 100%;
+        min-width: 1024px;
+        /* Proportional scaling */
+        width: 100%;
+        height: auto;
+        /* Set Up positioning */
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: -1;
+        /* transition */
+        animation: fadeout2 1s linear 0ms normal forwards;
+        -moz-animation: fadeout2 1s linear 0ms normal forwards;
+        -webkit-animation: fadeout2 1s linear 0ms normal forwards;
+    }
+
+    /* Initial State */
+    .initialbg {
+        /* Fill background */
+        min-height: 100%;
+        min-width: 1024px;
+
+        /* Proportional scaling */
+        width: 100%;
+        height: auto;
+
+        /* Set Up positioning */
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: -1;
+
+        /* Background color */
+        background-color: lightgoldenrodyellow;
+    }
+
+    @keyframes fadein {
+        0% {
+            opacity: 0;
+        }
+
+        100% {
+            opacity: 1;
+        }
+    }
+
+    @keyframes fadeout {
+        0% {
+            opacity: 1;
+        }
+
+        100% {
+            opacity: 0;
+        }
+    }
+
+    @keyframes fadein2 {
+        0% {
+            opacity: 0;
+        }
+
+        100% {
+            opacity: 1;
+        }
+    }
+
+    @keyframes fadeout2 {
+        0% {
+            opacity: 1;
+        }
+
+        100% {
+            opacity: 0;
+        }
+    }
+
+    /* Arrows */
+    .previousArrow,
+    .nextArrow {
+        height: 40px;
+        width: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: rgb(255, 255, 204);
+        border-color: black;
+        border-width: medium;
+        border-style: solid;
+        border-radius: 50%;
+        cursor: pointer;
+    }
+
+    .nextArrow {
+        position: absolute;
+        top: 50%;
+        right: 25px;
+        z-index: 999;
+        color: #fff;
+    }
+
+    img.nextArrowImg:hover {
+        transform: translate(1.5px, 0);
+    }
+
+    img.previousArrowImg:hover {
+        transform: translate(-1.5px, 0)
+    }
+
+    .previousArrow {
+        position: absolute;
+        top: 50%;
+        left: 25px;
+        z-index: 999;
+        color: #fff;
+    }
+
+    /* Circles */
+    .allCircles {
+        background-color: transparent;
+        height: fit-content;
+        width: 100%;
+        bottom: 30px;
+        position: absolute;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto;
+    }
+
+
+    .circleChange {
+        height: 15px;
+        width: 15px;
+        background: rgb(255, 255, 204);
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-top: auto;
+        margin-bottom: auto;
+        border-color: black;
+        border-width: 1.5px;
+        border-style: solid;
+        border-radius: 50%;
+        cursor: pointer;
     }
 }
 
-@keyframes fadeout {
-    0% {
-        opacity: 1;
+/* Mobile */
+@media only screen and (min-width: 451px) and (max-width: 650px) {
+    .App {
+        /* Text */
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 14px;
+        line-height: 1.3em;
+        text-align: center;
+        color: black;
+
+        /* Background */
+        background-color: transparent;
+
+        /* OverFlow */
+        overflow: hidden;
     }
-    100% {
+    .underlineMe {
+        /* Text */
+        text-decoration: underline;
+    }
+
+    .allQuizArea,
+    .answeringSection,
+    .resultSection,
+    .currentHiragana,
+    .title {
+        /* Size */
+        height: fit-content;
+        max-width: fit-content;
+
+        /* Padding & Margin*/
+        padding: 10px;
+        margin-top: 50px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 10px;
+
+        /* Background color for div boxes */
+        background-color: transparent;
+    }
+
+    .answeringSection,
+    .resultSection,
+    .currentHiragana,
+    .title {
+        /* Border */
+        border-width: thin;
+        border-style: solid;
+
+        /* Background color */
+        background-color: rgb(255, 255, 204);
+    }
+
+    .titleOfHiragana,
+    answerAreaOfHiragana {
+        padding: 5px;
+    }
+
+    input {
+        /* Text */
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        text-align: center;
+
+        /* Box */
+        background-color: white;
+        border-width: medium;
+        border-style: solid;
+        outline: none;
+        box-shadow: none;
+        min-height: 15px;
+        font-size: px;
+    }
+
+    /* Auto hide placer holder text */
+    input:focus::-webkit-input-placeholder,
+    input:hover::-webkit-input-placeholder {
         opacity: 0;
     }
-}
 
-@keyframes fadein2 {
-    0% {
-        opacity: 0;
+    /* Background stuff */
+    .fadeinbg {
+        /* Fill background */
+        min-height: 100%;
+        min-width: 450px;
+
+        /* Proportional scaling */
+        width: 100%;
+        height: auto;
+
+        /* Set Up positioning */
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: -1;
+
+        /* Background color */
+        background-color: lightgoldenrodyellow;
+
+        /* transition */
+        animation: fadein 1s linear 0ms normal forwards;
+        -moz-animation: fadein 1s linear 0ms normal forwards;
+        -webkit-animation: fadein 1s linear 0ms normal forwards;
     }
-    100% {
-        opacity: 1;
+
+    .fadeoutbg {
+        /* Fill background */
+        min-height: 100%;
+        min-width: 450px;
+
+        /* Proportional scaling */
+        width: 100%;
+        height: auto;
+
+        /* Set Up positioning */
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: -2;
+
+        /* transition */
+        animation: fadeout 1s linear 0ms normal forwards;
+        -moz-animation: fadeout 1s linear 0ms normal forwards;
+        -webkit-animation: fadeout 1s linear 0ms normal forwards;
+    }
+
+    .fadeinbg2 {
+        /* Fill background */
+        min-height: 100%;
+        min-width: 450px;
+        /* Proportional scaling */
+        width: 100%;
+        height: auto;
+        /* Set Up positioning */
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: -1;
+        /* Background color */
+        background-color: lightgoldenrodyellow;
+        /* transition */
+        animation: fadein2 1s linear 0ms normal forwards;
+        -moz-animation: fadein2 1s linear 0ms normal forwards;
+        -webkit-animation: fadein2 1s linear 0ms normal forwards;
+    }
+
+    .fadeoutbg2 {
+        /* Fill background */
+        min-height: 100%;
+        min-width: 1024px;
+        /* Proportional scaling */
+        width: 100%;
+        height: auto;
+        /* Set Up positioning */
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: -1;
+        /* transition */
+        animation: fadeout2 1s linear 0ms normal forwards;
+        -moz-animation: fadeout2 1s linear 0ms normal forwards;
+        -webkit-animation: fadeout2 1s linear 0ms normal forwards;
+    }
+
+    /* Initial State */
+    .initialbg {
+        /* Fill background */
+        min-height: 100%;
+        min-width: 450px;
+
+        /* Proportional scaling */
+        width: 100%;
+        height: auto;
+
+        /* Set Up positioning */
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: -1;
+
+        /* Background color */
+        background-color: lightgoldenrodyellow;
+    }
+
+    @keyframes fadein {
+        0% {
+            opacity: 0;
+        }
+
+        100% {
+            opacity: 1;
+        }
+    }
+
+    @keyframes fadeout {
+        0% {
+            opacity: 1;
+        }
+
+        100% {
+            opacity: 0;
+        }
+    }
+
+    @keyframes fadein2 {
+        0% {
+            opacity: 0;
+        }
+
+        100% {
+            opacity: 1;
+        }
+    }
+
+    @keyframes fadeout2 {
+        0% {
+            opacity: 1;
+        }
+
+        100% {
+            opacity: 0;
+        }
+    }
+
+    /* Arrows */
+    .previousArrow,
+    .nextArrow {
+        height: 40px;
+        width: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: rgb(255, 255, 204);
+        border-color: black;
+        border-width: medium;
+        border-style: solid;
+        border-radius: 50%;
+        cursor: pointer;
+    }
+
+    .nextArrow {
+        position: absolute;
+        top: 50%;
+        right: 25px;
+        z-index: 999;
+        color: #fff;
+    }
+
+    img.nextArrowImg:hover {
+        transform: translate(1.5px, 0);
+    }
+
+    img.previousArrowImg:hover {
+        transform: translate(-1.5px, 0)
+    }
+
+    .previousArrow {
+        position: absolute;
+        top: 50%;
+        left: 25px;
+        z-index: 999;
+        color: #fff;
+    }
+
+    /* Circles */
+    .allCircles {
+        background-color: transparent;
+        height: fit-content;
+        width: 100%;
+        bottom: 30px;
+        position: absolute;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto;
+    }
+
+
+    .circleChange {
+        height: 15px;
+        width: 15px;
+        background: rgb(255, 255, 204);
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-top: auto;
+        margin-bottom: auto;
+        border-color: black;
+        border-width: 1.5px;
+        border-style: solid;
+        border-radius: 50%;
+        cursor: pointer;
     }
 }
-
-@keyframes fadeout2 {
-    0% {
-        opacity: 1;
-    }
-    100% {
-        opacity: 0;
-    }
-}
-
-/* Arrows */
-.previousArrow, .nextArrow {
-    height: 40px;
-    width: 40px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background:  rgb(255, 255, 204);
-    border-color: black;
-    border-width: medium;
-    border-style: solid;
-    border-radius: 50%;
-    cursor: pointer;
-}
-
-.nextArrow {
-    position: absolute;
-    top: 50%;
-    right: 25px;
-    z-index: 999;
-    color: #fff;
-}
-
-img.nextArrowImg:hover {
-    transform: translate(1.5px, 0);
-}
-
-img.previousArrowImg:hover{
-    transform: translate(-1.5px, 0)
-}
-
-.previousArrow {
-    position: absolute;
-    top: 50%;
-    left: 25px;
-    z-index: 999;
-    color: #fff;
-}
-
-/* Circles */
-.allCircles {
-    background-color: transparent;
-    height: fit-content;
-    width: 100%;
-    bottom: 30px;
-    position: absolute;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 0 auto;
-}
-
-
-.circleChange {
-    height: 15px;
-    width: 15px;
-    background : rgb(255, 255, 204);
-    margin-left: 10px;
-    margin-right: 10px;
-    margin-top: auto;
-    margin-bottom: auto;
-    border-color: black;
-    border-width: 1.5px;
-    border-style: solid;
-    border-radius: 50%;
-    cursor: pointer;
-}  

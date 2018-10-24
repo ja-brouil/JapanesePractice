@@ -6,6 +6,8 @@ class QuizArea extends Component {
     constructor(props){
         super(props)
 
+        console.log(props);
+
         this.state = {
             currentHiraganaPath: this.props.CurrentHiragana.currentHiraganaPath,
             currentHiraganaAnswer: this.props.CurrentHiragana.currentHiraganaAnswer,
@@ -81,7 +83,9 @@ class QuizArea extends Component {
             <div className="allQuizArea">
                 <div className="currentHiragana">
                     <div className="titleOfHiragana">
-                        <label className="underlineMe">What is this Hiragana Character?</label>
+                        <label >What is this character?</label>
+                        <br />
+                        <label className="underLineMe">これは何ですか？</label>
                     </div>
                     <div className="answerAreadOfHiragana">
                         <img src={this.state.currentHiraganaPath} alt="Hiragana Character"/>
@@ -90,8 +94,8 @@ class QuizArea extends Component {
                         </form>
                     </div>
                     <div>
-                        <p>Correct Answers: {this.state.correctAnswerCount} </p>
-                        <p>Current Streak: {this.state.streakAnswerCount} </p>
+                        <p>Correct Answers/正しい答え: {this.state.correctAnswerCount} </p>
+                        <p>Current Streak/正しい答えの連勝: {this.state.streakAnswerCount} </p>
                         {this.incorrectAnswerRender()}
                         {this.lastAnswerRender()}
                     </div>

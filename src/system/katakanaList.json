@@ -1,0 +1,337 @@
+{
+    "katakanaA": {
+        "fileLocation": "katakana/a",
+        "answer": "a",
+        "enabled": true
+    },
+    "katakanaChi": {
+        "fileLocation": "katakana/chi",
+        "answer": "chi",
+        "enabled": true
+    },
+    "katakanaE": {
+        "fileLocation": "katakana/e",
+        "answer": "e",
+        "enabled": true
+    },
+    "katakanaI": {
+        "fileLocation": "katakana/i",
+        "answer": "i",
+        "enabled": true
+    },
+    "katakanaKa": {
+        "fileLocation": "katakana/ka",
+        "answer": "ka",
+        "enabled": true
+    },
+    "katakanaKe": {
+        "fileLocation": "katakana/ke",
+        "answer": "ke",
+        "enabled": true
+    },
+    "katakanaKi": {
+        "fileLocation": "katakana/ki",
+        "answer": "ki",
+        "enabled": true
+    },
+    "katakanaKo": {
+        "fileLocation": "katakana/ko",
+        "answer": "ko",
+        "enabled": true
+    },
+    "katakanaKu": {
+        "fileLocation": "katakana/ku",
+        "answer": "ku",
+        "enabled": true
+    },
+    "katakanaO": {
+        "fileLocation": "katakana/o",
+        "answer": "o",
+        "enabled": true
+    },
+    "katakanaSa": {
+        "fileLocation": "katakana/sa",
+        "answer": "sa",
+        "enabled": true
+    },
+    "katakanaSe": {
+        "fileLocation": "katakana/se",
+        "answer": "se",
+        "enabled": true
+    },
+    "katakanaShi": {
+        "fileLocation": "katakana/shi",
+        "answer": "shi",
+        "enabled": true
+    },
+    "katakanaSo": {
+        "fileLocation": "katakana/so",
+        "answer": "so",
+        "enabled": true
+    },
+    "katakanaSu": {
+        "fileLocation": "katakana/su",
+        "answer": "su",
+        "enabled": true
+    },
+    "katakanaTa": {
+        "fileLocation": "katakana/ta",
+        "answer": "ta",
+        "enabled": true
+    },
+    "katakanaTe": {
+        "fileLocation": "katakana/te",
+        "answer": "te",
+        "enabled": true
+    },
+    "katakanaTo": {
+        "fileLocation": "katakana/to",
+        "answer": "to",
+        "enabled": true
+    },
+    "katakanaTsu": {
+        "fileLocation": "katakana/tsu",
+        "answer": "tsu",
+        "enabled": true
+    },
+    "katakanaU": {
+        "fileLocation": "katakana/u",
+        "answer": "u",
+        "enabled": true
+    },
+    "katakanaNa": {
+        "fileLocation": "katakana/na",
+        "answer": "na",
+        "enabled": true
+    },
+    "katakanaNi": {
+        "fileLocation": "katakana/ni",
+        "answer": "ni",
+        "enabled": true
+    },
+    "katakanaNu": {
+        "fileLocation": "katakana/nu",
+        "answer": "nu",
+        "enabled": true
+    },
+    "katakanaNe": {
+        "fileLocation": "katakana/ne",
+        "answer": "ne",
+        "enabled": true
+    },
+    "katakanaNo": {
+        "fileLocation": "katakana/no",
+        "answer": "no",
+        "enabled": true
+    },
+    "katakanaHa": {
+        "fileLocation": "katakana/ha",
+        "answer": "ha",
+        "enabled": true
+    },
+    "katakanaHi": {
+        "fileLocation": "katakana/hi",
+        "answer": "hi",
+        "enabled": true
+    },
+    "katakanaFu": {
+        "fileLocation": "katakana/fu",
+        "answer": "fu",
+        "enabled": true
+    },
+    "katakanaHo": {
+        "fileLocation": "katakana/ho",
+        "answer": "ho",
+        "enabled": true
+    },
+    "katakanaHe": {
+        "fileLocation": "katakana/he",
+        "answer": "he",
+        "enabled": true
+    },
+    "katakanaMa": {
+        "fileLocation": "katakana/ma",
+        "answer": "ma",
+        "enabled": true
+    },
+    "katakanaMi": {
+        "fileLocation": "katakana/mi",
+        "answer": "mi",
+        "enabled": true
+    },
+    "katakanaMe": {
+        "fileLocation": "katakana/me",
+        "answer": "me",
+        "enabled": true
+    },
+    "katakanaMo": {
+        "fileLocation": "katakana/mo",
+        "answer": "mo",
+        "enabled": true
+    },
+    "katakanaYa": {
+        "fileLocation": "katakana/ya",
+        "answer": "ya",
+        "enabled": true
+    },
+    "katakanaYu": {
+        "fileLocation": "katakana/yu",
+        "answer": "yu",
+        "enabled": true
+    },
+    "katakanaYo": {
+        "fileLocation": "katakana/yo",
+        "answer": "yo",
+        "enabled": true
+    },
+    "katakanaRa": {
+        "fileLocation": "katakana/ra",
+        "answer": "ra",
+        "enabled": true
+    },
+    "katakanaRi": {
+        "fileLocation": "katakana/ri",
+        "answer": "ri",
+        "enabled": true
+    },
+    "katakanaRe": {
+        "fileLocation": "katakana/re",
+        "answer": "re",
+        "enabled": true
+    },
+    "katakanaRo": {
+        "fileLocation": "katakana/ro",
+        "answer": "ro",
+        "enabled": true
+    },
+    "katakanaRu": {
+        "fileLocation": "katakana/ru",
+        "answer": "ru",
+        "enabled": true
+    },
+    "katakanaWa": {
+        "fileLocation": "katakana/wa",
+        "answer": "wa",
+        "enabled": true
+    },
+    "katakanaWo": {
+        "fileLocation": "katakana/wo",
+        "answer": "wo",
+        "enabled": true
+    },
+    "katakanaN": {
+        "fileLocation": "katakana/n",
+        "answer": "n",
+        "enabled": true
+    },
+    "katakanaGa": {
+        "fileLocation": "katakana/ga",
+        "answer": "ga",
+        "enabled": true
+    },
+    "katakanaGi": {
+        "fileLocation": "katakana/gi",
+        "answer": "gi",
+        "enabled": true
+    },
+    "katakanaGu": {
+        "fileLocation": "katakana/gu",
+        "answer": "gu",
+        "enabled": true
+    },
+    "katakanaGe": {
+        "fileLocation": "katakana/ge",
+        "answer": "ge",
+        "enabled": true
+    },
+    "katakanaGo": {
+        "fileLocation": "katakana/go",
+        "answer": "go",
+        "enabled": true
+    },
+    "katakanaZa": {
+        "fileLocation": "katakana/za",
+        "answer": "za",
+        "enabled": true
+    },
+    "katakanaJi": {
+        "fileLocation": "katakana/ji",
+        "answer": "ji",
+        "enabled": true
+    },
+    "katakanaZu": {
+        "fileLocation": "katakana/zu",
+        "answer": "zu",
+        "enabled": true
+    },
+    "katakanaZo": {
+        "fileLocation": "katakana/zo",
+        "answer": "zo",
+        "enabled": true
+    },
+    "katakanaJi2": {
+        "fileLocation": "katakana/ji2",
+        "answer": "ji",
+        "enabled": true
+    },
+    "katakanaDa": {
+        "fileLocation": "katakana/da",
+        "answer": "da",
+        "enabled": true
+    },
+    "katakanaZu2": {
+        "fileLocation": "katakana/zu2",
+        "answer": "zu",
+        "enabled": true
+    },
+    "katakanaDe": {
+        "fileLocation": "katakana/de",
+        "answer": "de",
+        "enabled": true
+    },
+    "katakanaDo": {
+        "fileLocation": "katakana/do",
+        "answer": "do",
+        "enabled": true
+    },
+    "katakanaBa": {
+        "fileLocation": "katakana/ba",
+        "answer": "ba",
+        "enabled": true
+    },
+    "katakanaBi": {
+        "fileLocation": "katakana/bi",
+        "answer": "bi",
+        "enabled": true
+    },
+    "katakanaBu": {
+        "fileLocation": "katakana/bu",
+        "answer": "bu",
+        "enabled": true
+    },
+    "katakanaBe": {
+        "fileLocation": "katakana/be",
+        "answer": "be",
+        "enabled": true
+    },
+    "katakanaBo": {
+        "fileLocation": "katakana/bo",
+        "answer": "be",
+        "enabled": true
+    },
+    "katakanaPa": {
+        "fileLocation": "katakana/pa",
+        "answer": "pa",
+        "enabled": true
+    },
+    "katakanaPi": {
+        "fileLocation": "katakana/pi",
+        "answer": "pi",
+        "enabled": true
+    },
+    "katakanaPu": {
+        "fileLocation": "katakana/pu",
+        "answer": "pu",
+        "enabled": true
+    }
+}

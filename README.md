@@ -2,7 +2,7 @@
 Practice your Hiragana and Katakana
 
 - Simple app designed to learn Hiragana and Katakana
-- Simply input the phonetics for the Japanese character and hit the enter button to check if you are right.
+- Simply input the phonetics in romaji for the Japanese character and hit the enter button to check if you are right.
 
 To do:
 - Check Issues page for additional stuff

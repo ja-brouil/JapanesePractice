@@ -316,7 +316,7 @@
     },
     "hiraganaBo" : {
         "fileLocation": "hiragana/bo",
-        "answer" : "be",
+        "answer" : "bo",
         "enabled" : true
     },
     "hiraganaPa" : {

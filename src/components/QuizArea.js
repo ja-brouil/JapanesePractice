@@ -94,8 +94,8 @@ class QuizArea extends Component {
                         </form>
                     </div>
                     <div>
-                        <p>Correct Answers/正しい答え: {this.state.correctAnswerCount} </p>
-                        <p>Current Streak/正しい答えの連勝: {this.state.streakAnswerCount} </p>
+                        <p>Correct Answers/いい答え: {this.state.correctAnswerCount} </p>
+                        <p>Current Streak/いい答えの連勝: {this.state.streakAnswerCount} </p>
                         {this.incorrectAnswerRender()}
                         {this.lastAnswerRender()}
                     </div>

@@ -11,12 +11,12 @@
     },
     "katakanaE": {
         "fileLocation": "katakana/e",
-        "answer": "e",
+        "answer": "i",
         "enabled": true
     },
     "katakanaI": {
         "fileLocation": "katakana/i",
-        "answer": "i",
+        "answer": "e",
         "enabled": true
     },
     "katakanaKa": {

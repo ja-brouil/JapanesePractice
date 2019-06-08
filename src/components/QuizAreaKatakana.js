@@ -86,7 +86,7 @@ class QuizAreaKatakana extends Component {
                     <div className="answerAreadOfHiragana">
                         <img src={this.state.currentKatakanaPath} alt="Hiragana Character"/>
                         <form onSubmit={this.checkAnswer} autoComplete="off" >
-                            <input type="text" name="answer" placeholder="Answer..." value={this.state.inputValue} onChange={this.onChange} autoCapitalize="none"/>
+                            <input type="text" name="answer" placeholder="Answer/答え" value={this.state.inputValue} onChange={this.onChange} autoCapitalize="none"/>
                         </form>
                     </div>
                     <div>
